@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+    ;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #FFFFFF;
+    width: 870px;
+    border-radius: 5px;
+}
+
+/* top players style */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.players img {
+    width: 56px;
+    height: 56px;
+}
