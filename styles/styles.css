@@ -1,18 +1,20 @@
-* {
+/* common styles or utilities */
+
+body{
     font-family: 'Poppins', sans-serif;
-    background: #F3F1FF;
+    background-color: #F3F1FF;
     ;
 }
 
-.main {
+main{
     display: flex;
     justify-content: center;
 }
-
-.container {
-    background: #FFFFFF;
+.container{
+    background-color: #FFFFFF;
     width: 870px;
     border-radius: 5px;
+    padding: 30px;
 }
 
 /* top players style */
@@ -23,6 +25,7 @@
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: 3px;
 
 }
 
@@ -30,6 +33,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-row-gap: 30px ;
 }
 
 .player {
@@ -41,4 +45,8 @@
 .players img {
     width: 56px;
     height: 56px;
+}
+.playear-name{
+    margin-left: 16px;
+    font-size: 18px;
 }
